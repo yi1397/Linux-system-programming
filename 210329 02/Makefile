@@ -17,10 +17,10 @@ LINKER  = $(CROSS_COMPILE)g++ --verbose
 
 CFLAGS += -I./libhdmi/include -I./libhdmi
 
-default: 210329
+default: 210329\ 02
 
 clean:
-	rm -f 210329 *.o
+	rm -f 210329\ 02 *.o
 
-210329: fb_test.c
-	$(CC) fb_test.c -o fb_test -L. -lhdmi -lm $(CFLAGS) -L./libhdmi
+210329\ 02: mouse.c
+	$(CC) mouse.c -o mouse -L. -lhdmi -lm $(CFLAGS) -L./libhdmi
