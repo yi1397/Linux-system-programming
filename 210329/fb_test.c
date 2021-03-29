@@ -16,7 +16,6 @@
 
 int main(int argc, char* argv[])
 {
-    int check;
     int frame_fd;
     struct fb_var_screeninfo fvs;
     int *fb;

@@ -23,4 +23,4 @@ clean:
 	rm -f 210329 *.o
 
 210329: fb_test.c
-	$(CC) fb_test.c -o hdmiDrawBox -L. -lhdmi -lm $(CFLAGS) -L./libhdmi
+	$(CC) fb_test.c -o fb_test -L. -lhdmi -lm $(CFLAGS) -L./libhdmi
