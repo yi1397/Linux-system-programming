@@ -7,10 +7,10 @@
 #include <unistd.h>
 #include <linux/fb.h>
 
-#include "libhdmi/include/videodev2.h"
-#include "libhdmi/hdmi_api.h"
-#include "libhdmi/include/hdmi_lib.h"
-#include "libhdmi/include/s3c_lcd.h"
+#include "videodev2.h"
+#include "hdmi_api.h"
+#include "hdmi_lib.h"
+#include "s3c_lcd.h"
 
 #define FB_DEV	"/dev/fb0"
 
